@@ -54,7 +54,7 @@ CONSout=$MAPPING/$SAMPLE.consensus.fa;
 RENAME=$MAPPING/$SAMPLE.consensus.SL.fa;
 
 VCF=$MAPPING/$SAMPLE.consensus.vcf;
-
+VCFfilter=$MAPPING/$SAMPLE.consensus.filter.vcf;
 
 ##  align reads to selected reference, standard genotype 3c refernece sequence. MT362711.1 Hepeviridae isolate HEVgt3c_NL_serum_906010, partial genome
 
@@ -95,7 +95,7 @@ samtools index "$OUTc2";
 
 freebayes -f "$RENAME" --haplotype-length 0 --min-alternate-count 1 --min-alternate-fraction 0 --pooled-continuous --report-monomorphic "$OUTc2" > "$VCF";
 
-
+vcffilter  -f "SRP > 20" -f "SAP > 20" -f "EPP > 20" -f "QUAL > 20" -f "DP > 20" "$VCF" > "$VCFfilter";
 
 MINCOV=1;
 
