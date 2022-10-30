@@ -11,8 +11,8 @@ A consensus sequence is generated based upon the sequence and location of the re
 
 conda env is create "samtools"
 installed progs:
-- rename
-- bbmap
-- samtools
-- freebayes
+- rename      v1.601
+- bbmap       v39.01
+- samtools    v1.16
+- freebayes   v1.3.6
 
