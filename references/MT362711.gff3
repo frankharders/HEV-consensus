@@ -1,0 +1,18 @@
+##sequence-region MT362711 1 7167
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=291484
+MT362711	Genbank	region	1	7167	.	+	.	ID=MT362711:1..7167;Dbxref=taxon:291484;collection-date=29-Aug-2017;country=Netherlands;gbkey=Src;genome=genomic;genotype=3c;isolate=HEVgt3c_NL_serum_906010;isolation-source=serum;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Hepatitis E virus
+MT362711	Genbank	CDS	1	5100	.	+	0	ID=cds-QTK16421.1;Dbxref=NCBI_GP:QTK16421.1;Name=QTK16421.1;gbkey=CDS;product=polyprotein;protein_id=QTK16421.1
+MT362711	Genbank	CDS	5097	5465	.	+	0	ID=cds-QTK16422.1;Dbxref=NCBI_GP:QTK16422.1;Name=QTK16422.1;gbkey=CDS;product=phosphoprotein;protein_id=QTK16422.1
+MT362711	Genbank	CDS	5135	7117	.	+	0	ID=cds-QTK16423.1;Dbxref=NCBI_GP:QTK16423.1;Name=QTK16423.1;gbkey=CDS;product=capsid protein;protein_id=QTK16423.1
+MT362711	Genbank	biological_region	100	1065	.	+	.	ID=id-MT362711:34..355;Dbxref=CDD:396298;Name=Vmethyltransf;Note=Viral methyltransferase;gbkey=Region
+MT362711	Genbank	biological_region	2056	2373	.	+	.	ID=id-MT362711:686..791;Dbxref=CDD:372164;Name=DUF3729;Note=Protein of unknown function (DUF3729);gbkey=Region
+MT362711	Genbank	biological_region	2416	2748	.	+	.	ID=id-MT362711:806..916;Dbxref=CDD:438957;Name=Macro_X_Nsp3-like;Note=X-domain (or Mac1 domain) of viral non-structural protein 3 and related macrodomains;gbkey=Region
+MT362711	Genbank	region	2434	2442	.	+	.	ID=id-MT362711:812..897;Dbxref=CDD:438957;Note=ADP-ribose binding site [chemical binding];gbkey=Site;is_ordered=true
+MT362711	Genbank	region	2452	2472	.	+	.	ID=id-MT362711:812..897;Dbxref=CDD:438957;Note=ADP-ribose binding site [chemical binding];gbkey=Site;is_ordered=true
+MT362711	Genbank	region	2668	2673	.	+	.	ID=id-MT362711:812..897;Dbxref=CDD:438957;Note=ADP-ribose binding site [chemical binding];gbkey=Site;is_ordered=true
+MT362711	Genbank	region	2677	2691	.	+	.	ID=id-MT362711:812..897;Dbxref=CDD:438957;Note=ADP-ribose binding site [chemical binding];gbkey=Site;is_ordered=true
+MT362711	Genbank	region	2914	3573	.	+	.	ID=id-MT362711:972..1191;Dbxref=CDD:366646;Name=Viral_helicase1;Note=Viral (Superfamily 1) RNA helicase;gbkey=Region
+MT362711	Genbank	region	3952	4773	.	+	.	ID=id-MT362711:1318..1591;Dbxref=CDD:438109;Name=Hepeviridae_RdRp;Note=catalytic core domain of RNA-dependent RNA polymerase (RdRp) in the family Hepeviridae of positive-sense single-stranded RNA [(+)ssRNA] viruses;gbkey=Region
+MT362711	Genbank	region	4381	4425	.	+	.	ID=id-MT362711:1461..1475;Dbxref=CDD:438109;Note=conserved polymerase motif A;gbkey=Site;is_ordered=true
+MT362711	Genbank	region	4561	4632	.	+	.	ID=id-MT362711:1521..1544;Dbxref=CDD:438109;Note=conserved polymerase motif B;gbkey=Site;is_ordered=true
+MT362711	Genbank	region	4648	4692	.	+	.	ID=id-MT362711:1550..1564;Dbxref=CDD:438109;Note=conserved polymerase motif C;gbkey=Site;is_ordered=true
