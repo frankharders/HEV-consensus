@@ -16,3 +16,5 @@ installed progs:
 - samtools    v1.16
 - freebayes   v1.3.6
 
+added the directory with the common reference for annotation. Also present the gff3 file and teh bed filke.
+Must design the annotation pipeline and translation for the different orfs
